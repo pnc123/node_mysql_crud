@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Node App</title>
+	<style type="text/css">
+		body{
+			background-color: blue;
+		}
+
+		.head{
+			text-align: center;
+		}
+
+		 .crud{
+		 	text-align: center;
+		 }
+
+		 input{
+		 	text-align: center;
+		 	border-radius: 10px;
+		 	height: 20px;
+		 	background-color: yellow;
+		 }
+
+		 form{
+		 	text-align: center;
+		 	font-size: 25px;
+		 }
+
+		.foot{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="mainDiv">
+		<div class="heading">
+			<h1 class="head">CRUD APP USING NODE</h1>
+		</div>
+		<div class="middle">
+			 <h2 class="crud">Delete</h2>
+			 <form action="/delete" method="post">
+			 	Id:-<br>
+			 	<input type="text" name="id" placeholder="Enter Your Id"><br><br>
+			 	<input type="submit" name="submit" value="Delete">
+			 </form>
+		</div><br><br>
+		<div class="footer">
+			<p class="foot">Copyright@praveen.com</p>
+		</div>
+	</div>
+</body>
+</html>
